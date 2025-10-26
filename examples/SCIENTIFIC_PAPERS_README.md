@@ -2,6 +2,24 @@
 
 Ce guide vous montre comment créer et utiliser une base de données pour rechercher vos articles scientifiques avec Chroma.
 
+## 🚀 Démonstration rapide
+
+Essayez la démo interactive qui montre toutes les fonctionnalités :
+
+```bash
+# Installer Chroma
+pip install chromadb
+
+# Lancer la démonstration
+python scientific_papers_demo_with_embeddings.py
+```
+
+Cette démo crée une base avec 6 articles scientifiques et effectue plusieurs recherches pour montrer :
+- Ajout d'articles avec métadonnées
+- Recherche sémantique en langage naturel
+- Filtrage par année
+- Affichage de tous les articles
+
 ## Installation
 
 ```bash
@@ -10,13 +28,19 @@ pip install chromadb
 
 ## Utilisation rapide
 
-### 1. Exécuter l'exemple
+### 1. Exécuter l'exemple complet
 
 ```bash
 python scientific_papers_database.py
 ```
 
-### 2. Code minimal pour commencer
+### 2. Exécuter la démo simple
+
+```bash
+python scientific_papers_demo_with_embeddings.py
+```
+
+### 3. Code minimal pour commencer
 
 ```python
 import chromadb
